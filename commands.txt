@@ -1,0 +1,18 @@
+For BackEnd :
+npm init -y
+npm i express mongoose cors dotenv nodemon
+git init
+
+For FrontEnd:
+npm create vite@latest client --template react
+cd client
+npm install
+npm install axios
+npm run dev
+
+
+To run this app on your local machine :
+Backend - BLACKLIST>node app
+FrontEnd - BLACKLIST/client>npm run dev
+
+After these commands your app will start running 
