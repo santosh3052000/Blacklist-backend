@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const app = express()
 const cors = require('cors')
 const Router = require('./route')
-const morgan = require('morgan')
+//const morgan = require('morgan')
 require('dotenv').config()
 
 const connectDB = async ()=>{
