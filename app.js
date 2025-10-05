@@ -17,7 +17,7 @@ const connectDB = async ()=>{
 }
 connectDB()
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://joyful-faun-669dc5.netlify.app",
     methods:["POST","GET","PUT","DELETE"], 
 }))
 app.use(express.json())
